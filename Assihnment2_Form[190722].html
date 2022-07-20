@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Assignment 2</title>
+	<style>
+		div {
+			width: 400px;
+			background-color: lightblue;
+			color: #367680;
+			padding: 10px;
+		}
+
+		.box {
+			width: 100%;
+		}
+
+		.co {
+			width: 100%;
+		}
+	</style>
+</head>
+
+<body>
+	<center>
+		<div>
+			<Form>
+				<table>
+					<tr>
+						<td colspan="2">
+							<h3> Credit Card Application Form </h3>
+						</td>
+						<!-- <td><h3>  Credit Card Application Form </h3></td> -->
+					</tr>
+					<tr>
+						<td colspan="2">
+							<hr>
+						</td>
+						<!-- <td><hr></td> -->
+					</tr>
+					<tr>
+						<td colspan="2">Personal Information</td>
+						<!-- <td><h6>Personal Information</h6></td> -->
+					</tr>
+					<tr>
+						<td><br></td>
+					</tr>
+					<tr>
+						<td><strong>Name</strong></td>
+					</tr>
+					<tr>
+						<td><input width="100%;" placeholder="First" type="text"></td>
+						<td><input placeholder="Last" type="text"></td>
+					</tr>
+					<tr>
+						<td><strong>E-mail</strong></td>
+					</tr>
+					<tr>
+						<td colspan="2"><input class="box" type="email"></td>
+						<!-- <td><input class="box" type="email"></td> -->
+					</tr>
+					<tr>
+						<td><strong>Phone</strong></td>
+					</tr>
+					<tr>
+						<td colspan="2"><input class="box" placeholder="### ### ####" type="number"></td>
+						<!-- <td><input placeholder="### ### ####" type="number"></td> -->
+					</tr>
+					<tr>
+						<td><strong>Date Of Birth</strong></td>
+					</tr>
+					<tr>
+						<td colspan="2"><input class="box" type="date"></td>
+					</tr>
+					<tr>
+						<td><strong>Address</strong></td>
+					</tr>
+					<tr>
+						<td colspan="2"><input class="box" placeholder="Street Address" type="text"></td>
+					</tr>
+					<tr>
+						<td colspan="2"><input class="box" placeholder="Street Address Line 2" type="text"></td>
+					</tr>
+					<tr>
+						<td><input placeholder="City" type="text"></td>
+						<td><input placeholder="Region" type="text"></td>
+					</tr>
+					<tr>
+						<td><input placeholder="Postal / Zip code" type="number"></td>
+						<td><select class="co" name="country" id="">
+								<option value="" disabled selected hidden>country</option>
+								<option value="">India</option>
+								<option value="">U. S. A.</option>
+								<option value="">U. K.</option>
+								<option value="">Russia</option>
+								<option value="">China</option>
+							</select></td>
+					</tr>
+					<tr>
+						<td><strong>Marital Status</strong></td>
+					</tr>
+					<tr>
+						<td><input type="radio" name="Taken">Single</td>
+						<td><input type="radio" name="Taken">Married</td>
+					</tr>
+					<tr>
+						<td><input type="radio" name="Taken">Divorced</td>
+						<td><input type="radio" name="Taken">Widowed</td>
+					</tr>
+					<tr>
+						<td><strong>Mother's Maiden Name</strong></td>
+					</tr>
+					<tr>
+						<td colspan="2"><input class="box" type="text"></td>
+					</tr>
+					<tr>
+						<td><strong>Occupation</strong></td>
+					</tr>
+					<tr>
+						<td colspan="2"><input class="box" type="text"></td>
+					</tr>
+					<tr>
+						<td><strong>Employer</strong></td>
+					</tr>
+					<tr>
+						<td colspan="2"><input class="box" type="text"></td>
+					</tr>
+					<tr>
+						<td><strong>Work Phone</strong></td>
+					</tr>
+					<tr>
+						<td colspan="2"><input class="box" placeholder="### ### ####" type="number"></td>
+					</tr>
+					<td colspan="2">
+						<center><input id="bot" class="sub" type="submit" value="Next Page"></center>
+					</td>
+					<!-- <td><center><input class="sub" type="submit" value="Next Page"></center></td> -->
+					</tr>
+
+				</table>
+			</Form>
+		</div>
+	</center>
+</body>
+
+</html>
